@@ -1,0 +1,32 @@
+.infoBox {
+    flex: 1;
+    cursor:pointer;
+}
+.infobox--selected{
+    border-top: 10px solid greenyellow;
+}
+.infobox--red{
+    border-color:  red;
+}
+.infoBox:not(last-child) {
+    margin-right: 10px;
+}
+
+.infoBox__cases {
+    color: #cc1034;
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+}
+.infoBox__cases--green {
+    color: lightgreen !important;
+}
+.infoBox__total {
+    color: #6c757d;
+    /* Overriding Material UI */
+    font-weight: 700 !important;
+    font-size: 0.8rem !important;
+    margin-top: 15px !important;
+}
+
+

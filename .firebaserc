@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "covid-19-tracker-ec32c",
+    "build": "covid-19-tracker-8b7f0"
+  }
+}
